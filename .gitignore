@@ -1,7 +1,14 @@
-examples/config/utils
+# project examples
+examples/*
+
+# build files
 main
+main.exe
+*.exe
+
+# macos sistem files
 .DS_Store
 .others
 
-# output files
+# tests output files
 *.out
