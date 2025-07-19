@@ -1,0 +1,26 @@
+{
+	"PkgHandler": {
+		"Pattern": "/go-middleware",
+		"StripPrefix": "/go-middleware",
+		"Include": [
+			"/src/github.com/raywall/go-middleware",
+			"/src/github.com/raywall/go-middleware/*.go",
+		],
+		"Exclude": [
+            "/src/github.com/raywall/go-middleware/*.sh",
+            "/src/github.com/raywall/go-middleware/Makefile",
+            "/src/github.com/raywall/go-middleware/.goreleaser.yml",
+            "/src/github.com/raywall/go-middleware/.godoc_config",
+            "/src/github.com/raywall/go-middleware/.gitignore",
+            "/src/github.com/raywall/go-middleware/.github",
+		],
+		"IgnoredSuffixes": [
+			"iface"
+		]
+	},
+	"Github": {
+		"Tag": "main",
+		"Repo": "/raywall/go-middleware",
+		"UseGithub": true
+	}
+}

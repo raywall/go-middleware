@@ -1,0 +1,7 @@
+examples/config/utils
+main
+.DS_Store
+.others
+
+# output files
+*.out
